@@ -58,7 +58,7 @@ while test $# != 0
 	do
 	case "$1" in
 		--debian) debian ;;
-		-rust) rust-install ;;
+		--rust) rust-install ;;
 		--tmux) tmux-start ;;
 
 	esac
